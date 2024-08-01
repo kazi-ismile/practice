@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Kazi Ali Ismile Resume" />
+    <title>Kazi Ali Ismile Portfolio</title>
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: #212121;
+      }
+
+      header {
+        text-align: center;
+        background-color: #ff004f;
+        color: white;
+        padding: 10px 0;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 2.5em;
+      }
+
+      nav {
+        background-color: #cc0343;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-size: 1.1em;
+      }
+
+      nav a:hover {
+        text-decoration: underline;
+      }
+
+      .hero {
+        text-align: center;
+        padding: 50px 20px;
+      }
+
+      .hero img {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+      }
+
+      .hero p {
+        max-width: 600px;
+        margin: 20px auto;
+        color: #ffffff;
+      }
+
+      .section {
+        padding: 50px 20px;
+      }
+
+      .section-title {
+        text-align: center;
+        font-size: 2em;
+        margin-bottom: 40px;
+        color: #ffffff;
+      }
+
+      .favorite-characters {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }
+
+      .character {
+        text-align: center;
+        margin: 10px;
+        max-width: 200px;
+      }
+
+      .character img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+      }
+
+      .character a {
+        display: block;
+        color: #0059b8;
+        text-decoration: none;
+        margin-top: 5px;
+      }
+
+      .character a:hover {
+        text-decoration: underline;
+      }
+
+      .list-section ul,
+      .list-section ol {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 0;
+        list-style-position: inside;
+      }
+
+      .list-section li {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+        color: #ffffff;
+      }
+
+      footer {
+        background-color: #ff004f;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+      }
+    </style>
+  </head>
+  <!-- Navigation -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#characters">Characters</a>
+    <a href="#songs">Songs</a>
+    <a href="#singers">Singers</a>
+  </nav>
+
+  <body>
+    <!-- Header Section -->
+    <header>
+      <h1>Hi, I am Kazi Ali Ismile</h1>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="hero" id="about">
+      <img
+        src="https://framerusercontent.com/images/QXgLj2XzS2J10g77ZP7X8dfFE.png"
+        alt="Kazi Ali Ismile Image"
+      />
+      <p>
+        As a seasoned UI/UX designer, I am dedicated to crafting exceptional
+        digital experiences. With extensive experience in designing intuitive,
+        user-friendly interfaces, I specialize in creating accessible platforms
+        that cater to diverse user needs. Currently, I am focused on delivering
+        seamless, visually appealing designs that enhance user satisfaction and
+        drive engagement.
+      </p>
+    </div>
+
+    <!-- Favorite Character Section -->
+    <section class="section" id="characters">
+      <h2 class="section-title">Favorite Movie Characters</h2>
+      <div class="favorite-characters">
+        <div class="character">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Robert_Downey_Jr._2014_Comic-Con.jpg/330px-Robert_Downey_Jr._2014_Comic-Con.jpg"
+            alt="Tony Stark"
+          />
+          <h3>Iron Man</h3>
+          <a href="https://kazialiismile.framer.ai/">Robert Downey Jr</a>
+        </div>
+        <div class="character">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Chris_Hemsworth_by_Gage_Skidmore_2_%28cropped%29.jpg/330px-Chris_Hemsworth_by_Gage_Skidmore_2_%28cropped%29.jpg"
+            alt="Thor"
+          />
+          <h3>Thor Ragnarok</h3>
+          <a href="https://en.wikipedia.org/wiki/Chris_Hemsworth"
+            >Chris Hemsworth</a
+          >
+        </div>
+        <div class="character">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Tom_Holland_by_Gage_Skidmore.jpg/330px-Tom_Holland_by_Gage_Skidmore.jpg"
+            alt="Tom Holland"
+          />
+          <h3>Spider Man</h3>
+          <a href="https://en.wikipedia.org/wiki/Tom_Holland">Tom Holland</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Favorite Songs Section -->
+    <section class="section list-section" id="songs">
+      <h2 class="section-title">List of Favorite Songs</h2>
+      <ul>
+        <li>Despacito</li>
+        <li>O Sajni Re</li>
+        <li>Shape of You</li>
+      </ul>
+    </section>
+
+    <!-- Favorite Singers Section -->
+    <section class="section list-section" id="singers">
+      <h2 class="section-title">List of Favorite Singers</h2>
+      <ol>
+        <li>Michael Jackson</li>
+        <li>Ed Sheeran</li>
+        <li>Arijit Singh</li>
+      </ol>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <p>&copy; 2024 Kazi Ali Ismile. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
